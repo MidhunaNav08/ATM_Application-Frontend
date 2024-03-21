@@ -1,0 +1,33 @@
+/* .button{
+    width: 18%;
+}
+button{
+    width:100%;
+    margin: 5px;
+    background-color: transparent;
+    border-color: blueviolet;
+}  */
+
+/* container-flex{
+    display: flex;
+    justify-content: center;
+    text-align: center;  
+} */
+
+.top{
+    margin: 20px;
+}
+
+.container-home{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+button{
+    display:block;
+    width:100%;
+    margin: 20px;
+    background-color: transparent;
+    border-color: blueviolet;
+}

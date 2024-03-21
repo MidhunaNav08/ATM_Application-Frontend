@@ -1,0 +1,21 @@
+.deposit-form{
+    margin: 25px;
+    padding: 15px;
+}
+
+.input-form{
+    padding: 10px;
+}
+label{
+    padding-bottom: 5px;
+}
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    border-color: blueviolet;
+    margin: 10px;
+}
+
+h3{
+    margin: 25px;
+}

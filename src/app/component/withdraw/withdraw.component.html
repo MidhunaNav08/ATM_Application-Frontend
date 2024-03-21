@@ -1,0 +1,18 @@
+<pm-header></pm-header>
+<div class="container-flex">
+    <div class="withdraw">
+        <h3>Withdraw</h3>
+        <div class="withdraw-form">
+            <form (ngSubmit)="withdraw()">
+                <div class="input-form">
+                    <label for="amount">Amount</label><br>
+                    <input type="number" min="0" id="amount" name="amount" [(ngModel)]="amount">
+                </div>
+                <div class="submit">
+                    <button type="submit">Add amount</button>
+                </div> 
+            </form>
+        </div>
+    </div>  
+</div>
+<pm-footer></pm-footer>

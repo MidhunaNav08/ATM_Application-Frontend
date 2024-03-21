@@ -1,0 +1,20 @@
+<pm-header></pm-header>
+<div class="container-flex">   
+    <div class="login-form">
+        <form (ngSubmit)="login()">
+            <h3>Login</h3>
+            <div class="content">
+                <div class="input-field">
+                    <input type="text" placeholder="username"  name="username" [(ngModel)]="account.username">
+                </div>
+                <div class="input-field">
+                    <input type="password" placeholder="Password"  name="password" [(ngModel)]="account.password">
+                </div>
+            </div>
+            <div class="action">
+                <button>Sign in</button>
+            </div>
+        </form>
+    </div>
+</div>
+<pm-footer></pm-footer>

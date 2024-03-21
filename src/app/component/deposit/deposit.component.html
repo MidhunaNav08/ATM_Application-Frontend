@@ -1,0 +1,18 @@
+<pm-header></pm-header>
+<div class="container-flex">
+    <div class="deposit">
+        <h3>Deposit</h3>
+        <div class="deposit-form">
+            <form (ngSubmit)="deposit()">
+                <div class="input-form">
+                    <label for="amount">Amount</label><br>
+                    <input type="number" min="0" id="amount" name="amount" [(ngModel)]="amount">
+                </div>
+                <div class="submit">
+                    <button type="submit">Add amount</button>
+                </div> 
+            </form>
+        </div>
+    </div>  
+</div>
+<pm-footer></pm-footer>

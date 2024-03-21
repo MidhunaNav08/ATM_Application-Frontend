@@ -1,0 +1,24 @@
+<pm-header></pm-header>
+<div class="container-flex">
+    <form class="register-form" (ngSubmit) = "newaccount()">
+        <h4>Register</h4>
+        <div class="container-input">
+            <div class="input">
+                <label for="accountName">Name</label>
+                <input type="text" [(ngModel)]="account.accountName" name="accountName">
+            </div>
+            <div class="input">
+                <label for="username">Username</label>
+                <input type="text" [(ngModel)]="account.username" name="username">
+            </div>
+            <div class="input">
+                <label for="password">Password</label>
+                <input type="password" [(ngModel)]="account.password" name="password">
+            </div>
+        </div>  
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>       
+    </form>
+</div>
+<pm-footer></pm-footer>

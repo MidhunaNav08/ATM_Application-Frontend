@@ -1,0 +1,25 @@
+<pm-header></pm-header>
+<div class="cointainer-flex">
+    <div class="transaction">
+        <h3>Transaction history</h3>
+        <div class="transaction-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Transaction Date</th>
+                        <th>Transaction Type</th>
+                        <th>Transaction Amount</th>
+                    </tr>
+                </thead> 
+                <tbody >
+                    <tr *ngFor="let transaction of transactions">
+                        <td>{{transaction.transactionDate | date:'dd-MM-yyyy'}}</td>
+                        <td>{{transaction.transactionType}}</td>
+                        <td>{{transaction.transactionAmount}}</td>
+                    </tr>
+                </tbody> 
+            </table>
+        </div>
+    </div>
+</div>
+<pm-footer></pm-footer>

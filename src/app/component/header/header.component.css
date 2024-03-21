@@ -1,0 +1,28 @@
+.container-nav{
+    background-color:rgb(221, 187, 252);
+    padding: 15px;
+}
+
+.container-item {
+    display: inline-flex;
+    float: right;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container-item li{
+    list-style: none;
+    display: inline-flex;
+    text-align: right;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+span{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

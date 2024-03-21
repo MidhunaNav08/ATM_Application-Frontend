@@ -1,0 +1,22 @@
+<pm-header></pm-header>
+<div class="container-flex">
+    <h3>Transfer</h3>
+    <div class="transfer-body">
+        <form (ngSubmit)="transfer()">
+            <div class="transfer-form">
+                <div>
+                    <label for="toId">Id to transfer </label><br>
+                    <input type="number" min="0"  max="10"id="amount" name="toId" [(ngModel)]="toId">
+                </div>
+                <div>
+                    <label for="amount">Amount</label><br>
+                    <input type="number" min="0" id="amount" name="amount" [(ngModel)]="amount">
+                </div>
+                <div class="submit">
+                    <button type="submit">Add amount</button>
+                </div>
+            </div>  
+        </form>
+    </div>
+</div>
+<pm-footer></pm-footer>
